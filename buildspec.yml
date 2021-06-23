@@ -1,1 +1,6 @@
-#
+version: 0.2
+
+phases:
+  build:
+    command: ["/bin/sh","-c"]
+    args: ["python3 main.py"]
